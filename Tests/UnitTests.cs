@@ -92,7 +92,7 @@ public class Addition
 	public void Pow_Valid_Patino()
 	{
 		Assert.AreEqual(100, Program.Power("10", "2"));
-		Assert.AreEqual(1024, Program.Power("2", "10")); 
+		Assert.AreEqual(1024, Program.Power("2", "1")); // should fail
 	}
 
 	[TestMethod]
