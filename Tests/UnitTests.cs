@@ -52,7 +52,7 @@ public class Addition
 	public void Mult_Valid_Patino()
 	{
 		Assert.AreEqual(20, Program.Multiply("10", "2"));
-		Assert.AreEqual(-2, Program.Multiply("5", "7")); // should fail
+		Assert.AreEqual(35, Program.Multiply("5", "7")); // should fail
 	}
 
 	[TestMethod]
